@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <include name="default.xml" />
+
+  <project path="device/samsung/e3q" name="WhySooooFurious/android_device_samsung_e3q" revision="lineage-23.2" remote="github" />
+  <project path="device/samsung/sm8650-common" name="WhySooooFurious/android_device_samsung_sm8650-common" revision="lineage-23.2" remote="github" />
+  <project path="device/samsung_slsi/sepolicy" name="LineageOS/android_device_samsung_slsi_sepolicy" revision="lineage-23.2" remote="github" />
+  <project path="hardware/samsung" name="Exynoobs/android_hardware_samsung" revision="lineage-23.2" remote="github" />
+  <project path="kernel/samsung/sm8650" name="Exynoobs/android_kernel_samsung_sm8650" revision="lineage-23.2" remote="github" />
+  <project path="kernel/samsung/sm8650-devicetrees" name="Exynoobs/android_kernel_samsung_sm8650-devicetrees" revision="lineage-23.2" remote="github" />
+  <project path="kernel/samsung/sm8650-modules" name="Exynoobs/android_kernel_samsung_sm8650-modules" revision="lineage-23.2" remote="github" />
+  <project path="vendor/samsung/e3q" name="Exynoobs/proprietary_vendor_samsung_e3q" revision="lineage-23.2" remote="github" />
+  <project path="vendor/samsung/sm8650-common" name="Exynoobs/proprietary_vendor_samsung_sm8650-common" revision="lineage-23.2" remote="github" />
+
+</manifest>
