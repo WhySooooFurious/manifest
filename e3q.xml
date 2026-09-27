@@ -4,6 +4,10 @@
   <include name="default.xml" />
   <project path="external/dng_sdk" name="WhySooooFurious/android_external_dng_sdk" revision="bka" />
   <project path="external/libjxl" name="WhySooooFurious/android_external_libjxl" revision="bka" />
+  <project path="packages/modules/ImsStack" name="krazey/ImsStack" revision="main" remote="github" />
+  <remove-project path="packages/modules/ImsMedia" />
+  <project path="packages/modules/ImsMedia" name="krazey/ImsMedia" revision="main" remote="github" />
+  <project path="vendor/lineage/imsstack-carrier-config-ext" name="krazey/imsstack-carrier-config-ext" revision="main" remote="github" />
 
   <project path="device/samsung/e3q" name="WhySooooFurious/android_device_samsung_e3q" revision="lineage-23.2" remote="github" />
   <project path="device/samsung/sm8650-common" name="WhySooooFurious/android_device_samsung_sm8650-common" revision="lineage-23.2" remote="github" />
