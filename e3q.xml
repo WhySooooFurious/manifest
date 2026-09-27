@@ -23,4 +23,7 @@
   <project path="vendor/samsung/e3q" name="Exynoobs/proprietary_vendor_samsung_e3q" revision="lineage-23.2" remote="github" />
   <project path="vendor/samsung/sm8650-common" name="Exynoobs/proprietary_vendor_samsung_sm8650-common" revision="lineage-23.2" remote="github" />
 
+  <remove-project path="device/qcom/sepolicy_vndr/sm8650" groups="qcom,lanai-vendor" />
+  <project path="device/qcom/sepolicy_vndr/sm8650" name="WhySooooFurious/android_device_qcom_sepolicy_vndr" revision="lineage-23.2-caf-sm8650" />
+
 </manifest>
