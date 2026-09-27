@@ -2,7 +2,9 @@
 <manifest>
 
   <include name="default.xml" />
+  <remove-project path="external/dng_sdk" />
   <project path="external/dng_sdk" name="WhySooooFurious/android_external_dng_sdk" revision="bka" />
+  <remove-project path="external/libjxl" />
   <project path="external/libjxl" name="WhySooooFurious/android_external_libjxl" revision="bka" />
   <project path="packages/modules/ImsStack" name="krazey/ImsStack" revision="main" remote="github" />
   <remove-project path="packages/modules/ImsMedia" />
