@@ -2,6 +2,7 @@
 <manifest>
 
   <include name="default.xml" />
+  <project path="external/dng_sdk" name="WhySooooFurious/android_external_dng_sdk" revision="bka" />
   <project path="external/libjxl" name="WhySooooFurious/android_external_libjxl" revision="bka" />
 
   <project path="device/samsung/e3q" name="WhySooooFurious/android_device_samsung_e3q" revision="lineage-23.2" remote="github" />
