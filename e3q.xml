@@ -6,6 +6,8 @@
   <project path="external/dng_sdk" name="WhySooooFurious/android_external_dng_sdk" revision="bka" />
   <remove-project path="external/libjxl" />
   <project path="external/libjxl" name="WhySooooFurious/android_external_libjxl" revision="bka" />
+  <remove-project path="device/qcom/sepolicy" groups="qcom,qssi" />
+  <project path="device/qcom/sepolicy" name="WhySooooFurious/android_device_qcom_sepolicy" revision="lineage-23.2" />
   <project path="packages/modules/ImsStack" name="krazey/ImsStack" revision="main" remote="github" />
   <remove-project path="packages/modules/ImsMedia" />
   <project path="packages/modules/ImsMedia" name="krazey/ImsMedia" revision="main" remote="github" />
